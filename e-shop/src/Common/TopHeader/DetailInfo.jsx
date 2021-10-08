@@ -4,7 +4,7 @@ function DetailInfo() {
   return (
     <div className="topbar">
       <div className="container">
-        <div className="row">
+        <div className="row home">
           <div className="col-lg-4 col-md-12 col-12">
             <div className="top-left">
               <ul className="list-main">

@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'react-router-dom';
 
 function HeaderInner() {
   return (
@@ -11,12 +10,12 @@ function HeaderInner() {
         </h3>
         <ul className="main-category">
           <li>
-            <Link to="/">
+            <a to="/">
               New Arrivals
               <i className="fa fa-angle-right" aria-hidden="true" />
-            </Link>
+            </a>
             <ul className="sub-category">
-              <li><Link to="/">accessories</Link></li>
+              <li><a to="/">accessories</a></li>
               <li><a to="/">best selling</a></li>
               <li><a to="/">top 100 offer</a></li>
               <li><a to="/">sunglass</a></li>
@@ -34,13 +33,13 @@ function HeaderInner() {
             </a>
             <ul className="mega-menu">
               <li className="single-menu">
-                <Link to="/" className="title-link">
-                  Shop Kid's
-                </Link>
+                <a to="/" className="title-a">
+                  Shop Kids
+                </a>
                 <div className="image">
                   <img src="https://via.placeholder.com/225x155" alt="#" />
                 </div>
-                <div className="inner-link">
+                <div className="inner-a">
                   <a to="/">Kids Toys</a>
                   <a to="/">Kids Travel Car</a>
                   <a to="/">Kids Color Shape</a>
@@ -48,11 +47,11 @@ function HeaderInner() {
                 </div>
               </li>
               <li className="single-menu">
-                <a to="/" className="title-link">Shop Men's</a>
+                <a to="/" className="title-a">Shop Mens</a>
                 <div className="image">
                   <img src="https://via.placeholder.com/225x155" alt="#" />
                 </div>
-                <div className="inner-link">
+                <div className="inner-a">
                   <a to="/">Watch</a>
                   <a to="/">T-shirt</a>
                   <a to="/">Hoodies</a>
@@ -60,11 +59,11 @@ function HeaderInner() {
                 </div>
               </li>
               <li className="single-menu">
-                <a to="/" className="title-link">Shop Women's</a>
+                <a to="/" className="title-a">Shop Womens</a>
                 <div className="image">
                   <img src="https://via.placeholder.com/225x155" alt="#" />
                 </div>
-                <div className="inner-link">
+                <div className="inner-a">
                   <a to="/">Ladies Shirt</a>
                   <a to="/">Ladies Frog</a>
                   <a to="/">Ladies Sun Glass</a>

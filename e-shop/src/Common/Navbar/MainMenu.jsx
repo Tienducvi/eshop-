@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function MainMenu() {
   return (
@@ -9,40 +10,40 @@ function MainMenu() {
           <div className="navbar-collapse">
             <div className="nav-inner">
               <ul className="nav main-menu menu navbar-nav">
-                <li className="active"><a to="/">Home</a></li>
+                <li className="active"><Link to="/home">Home</Link></li>
                 <li>
-                  <a to="/">
+                  <Link to="/product">
                     Product
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a to="/">
+                  <Link to="/service">
                     Service
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a to="/">
+                  <Link to="/shop">
                     Shop
                     <i className="ti-angle-down" />
                     <span className="new">New</span>
-                  </a>
+                  </Link>
                   <ul className="dropdown">
                     <li><a href="shop-grid.html">Shop Grid</a></li>
                     <li><a href="cart.html">Cart</a></li>
                     <li><a href="checkout.html">Checkout</a></li>
                   </ul>
                 </li>
-                <li><a to="/">Pages</a></li>
+                <li><Link to="/pages">Pages</Link></li>
                 <li>
-                  <a to="/">
+                  <Link to="/blog">
                     Blog
                     <i className="ti-angle-down" />
-                  </a>
+                  </Link>
                   <ul className="dropdown">
-                    <li><a href="blog-single-sidebar.html">Blog Single Sidebar</a></li>
+                    <li><Link to="blog-single-sidebar.html">Blog Single Sidebar</Link></li>
                   </ul>
                 </li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><Link to="contact.html">Contact Us</Link></li>
               </ul>
             </div>
           </div>

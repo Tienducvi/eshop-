@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'react-router-dom';
 
 function SearchBar() {
   return (
@@ -14,9 +13,9 @@ function SearchBar() {
             {/* Search Form */}
             <div className="search-top">
               <div className="top-search">
-                <Link href="#0">
+                <a href="#0">
                   <i className="ti-search" />
-                </Link>
+                </a>
               </div>
               {/* Search Form */}
               <div className="search-top">
@@ -54,49 +53,49 @@ function SearchBar() {
             <div className="right-bar">
               {/* Search Form */}
               <div className="sinlge-bar">
-                <Link to="/" className="single-icon">
+                <a to="/" className="single-icon">
                   <i className="fa fa-heart-o" aria-hidden="true" />
-                </Link>
+                </a>
               </div>
               <div className="sinlge-bar">
-                <Link to="/" className="single-icon">
+                <a to="/" className="single-icon">
                   <i className="fa fa-user-circle-o" aria-hidden="true" />
-                </Link>
+                </a>
               </div>
               <div className="sinlge-bar shopping">
-                <Link to="/" className="single-icon">
+                <a to="/" className="single-icon">
                   <i className="ti-bag" />
                   <span className="total-count">2</span>
-                </Link>
+                </a>
                 {/* Shopping item */}
                 <div className="shopping-item">
                   <div className="dropdown-cart-header">
                     <span>2 Items</span>
-                    <Link to="/">View Cart</Link>
+                    <a to="/">View Cart</a>
                   </div>
                   <ul className="shopping-list">
                     <li>
-                      <Link to="/" className="remove" title="Remove this item">
+                      <a to="/" className="remove" title="Remove this item">
                         <i className="fa fa-remove" />
-                      </Link>
-                      <Link className="cart-img" to="/">
+                      </a>
+                      <a className="cart-img" to="/">
                         <img src="https://via.placeholder.com/70x70" alt="#" />
-                      </Link>
-                      <h4><Link to="/">Woman Ring</Link></h4>
+                      </a>
+                      <h4><a to="/">Woman Ring</a></h4>
                       <p className="quantity">
                         1x -
                         <span className="amount">$99.00</span>
                       </p>
                     </li>
                     <li>
-                      <Link to="/" className="remove" title="Remove this item">
+                      <a to="/" className="remove" title="Remove this item">
                         <i className="fa fa-remove" />
-                      </Link>
-                      <Link className="cart-img" to="/">
+                      </a>
+                      <a className="cart-img" to="/">
                         <img src="https://via.placeholder.com/70x70" alt="#" />
-                      </Link>
+                      </a>
                       <h4>
-                        <Link to="/">Woman Necklace</Link>
+                        <a to="/">Woman Necklace</a>
                       </h4>
                       <p className="quantity">
                         1x -

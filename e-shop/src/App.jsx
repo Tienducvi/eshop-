@@ -1,13 +1,12 @@
 import React from 'react';
-import DetailInfo from './Common/TopHeader/DetailInfo';
+import RouterAll from './Router/router';
+import './css/style.css';
 
 function App() {
   return (
-    <div>
-      <header className="header shop">
-        <DetailInfo />
-      </header>
-    </div>
+    <>
+      <RouterAll />
+    </>
   );
 }
 
